@@ -1,0 +1,8 @@
+{
+  "name": "az-bootstrap-components",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "projects/*"
+  ]
+}
