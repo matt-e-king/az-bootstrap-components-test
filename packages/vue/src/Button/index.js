@@ -1,4 +1,4 @@
-import AzBButton from './Button'
+import ButtonPlugin from './Button'
 
-export { AzBButton }
-export default AzBButton
+export { ButtonPlugin }
+export default ButtonPlugin

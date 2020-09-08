@@ -15,6 +15,11 @@ const plugins = [
 const baseConfig = {
   resolve: {
     extensions: ['*', '.js', '.vue'],
+    // pulling bootstrap-vue directly from source code, no transpilation
+    alias: {
+      // Alias for using source of BootstrapVue
+      'bootstrap-vue$': 'bootstrap-vue/src/index.js'
+    },
     modules: ['node_modules']
   },
   plugins,
