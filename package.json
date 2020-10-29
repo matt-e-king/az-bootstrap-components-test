@@ -4,5 +4,8 @@
   "workspaces": [
     "packages/*",
     "projects/*"
-  ]
+  ],
+  "scripts": {
+    "start:storybook": "yarn workspace @project/storybook storybook"
+  }
 }
