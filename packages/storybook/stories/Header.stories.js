@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Header } from './Header';
+import { Header } from '@az-bootstrap-components/react'
 
 export default {
   title: 'Example/Header',
@@ -9,10 +9,6 @@ export default {
 
 const Template = (args) => <Header {...args} />;
 
-export const LoggedIn = Template.bind({});
-LoggedIn.args = {
-  user: {},
+export const Default = Template.bind({});
+Default.args = {
 };
-
-export const LoggedOut = Template.bind({});
-LoggedOut.args = {};
