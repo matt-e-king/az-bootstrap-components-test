@@ -14,5 +14,6 @@ yarn install
 ```
 Then Run storybook
 ```
+// from root
 yarn run start:storybook
 ```

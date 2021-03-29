@@ -54,5 +54,8 @@ yarn start
 ```
 This will spin up a dev server being served up on `locahost:3000`
 
+### Storybook
+See library of UI components and documentation by running `yarn run start:storybook`
+
 ## Styling and SCSS
 Currently, for testing purposes, no SCSS is being utilized or imported into the individual UI libraries. The examples projects are pulling in the fully compiled `arizona-bootstrap` css file in the head tag of `public/index.html`.
