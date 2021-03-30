@@ -10,10 +10,6 @@
     "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
     "refresh": "export ENABLE_GATSBY_REFRESH_ENDPOINT=true && curl -X POST http://localhost:8000/__refresh"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://krystianflores@bitbucket.org/uasamk/admissions.git"
-  },
   "dependencies": {
     "@az-bootstrap-components/react": "1.0.0",
     "arizona-bootstrap": "https://github.com/az-digital/arizona-bootstrap",
