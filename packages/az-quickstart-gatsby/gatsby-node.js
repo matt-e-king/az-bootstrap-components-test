@@ -59,58 +59,6 @@ exports.createSchemaCustomization = ({ actions }) => {
 		type field_az_main_content {
 			type: String
 		}
-		type field_link {
-			title: String
-			uri: String
-		}
-		type field_col_head {
-			value: String
-		}
-		type field_content_margin_bottom {
-			value: String
-		}
-		type field_bttn_col_content {
-			format: String
-			processed: String
-			value: String
-		}
-		type field_html {
-			format: String
-			processed: String
-			value: String
-		}
-		type field_content_text {
-			processed: String
-			format: String
-			value: String
-		}
-		type paragraph__columns_of_buttons implements Node {
-			field_bttn_col_content: field_bttn_col_content
-		}
-		type paragraph__button_column implements Node {
-			field_col_head: field_col_head
-		}
-		type paragraph__admissions_hero implements Node {
-			field_headline_one: String
-			field_headline_two: field_headline_two
-			field_cta: field_cta
-		}
-		type field_headline_two {
-			processed: String
-			format: String
-			value: String
-		}
-		type field_cta implements Node {
-			field_link: field_link
-		}
-		type paragraph__html_field implements Node {
-			field_html: field_html
-		}
-		type paragraph__meta_data implements Node {
-			field_social_media_description: String
-			field_social_media_title: String
-			field_jso: String
-		}
 	`
   createTypes(typeDefs)
 }
