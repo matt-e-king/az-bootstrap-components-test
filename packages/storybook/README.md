@@ -9,7 +9,7 @@ yarn install
 Then install storybook.
 ```
 // from root
-cd packages/storybook.
+cd packages/storybook
 yarn install
 ```
 Then Run storybook
